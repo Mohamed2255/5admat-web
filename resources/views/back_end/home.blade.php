@@ -1,0 +1,11 @@
+@extends('back_end.layout.app')
+@section('title')
+Dashboard
+@endsection
+@section('content')
+    @component('back_end.layout.header')
+        @slot('nav_title')
+            Homepage
+        @endslot
+    @endcomponent
+@endsection
